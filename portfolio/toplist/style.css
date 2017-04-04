@@ -1,7 +1,20 @@
-p {
-    color: blue;
+* {
+   outline: 1px solid red !important;
+}
+
+* {
+    /* browser compatibility */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    /* standard */
+    box-sizing: border-box; /* size of the box will remain the same regardless of border, padding, margin, tweaks */
+}
+
+.screenshot {
+    max-width: 460px;
 }
 
 .description {
-    color: red;
+    max-width: 705px;
 }
