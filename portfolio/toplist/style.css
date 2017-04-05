@@ -13,6 +13,7 @@
 
 .screenshot {
     max-width: 460px;
+    margin-right: 24px;
 }
 
 .description {
@@ -22,4 +23,8 @@
 .app {
     display: -webkit-flex;
     display: flex;
+}
+
+.title {
+    background-color: #33BEBE;
 }
