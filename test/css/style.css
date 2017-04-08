@@ -14,23 +14,30 @@ body {
 }
 
 footer {
-    height: 120px;
-    background-color: #1B2631;
-    color: #D5D8DC;
+    background-color: #dedede;
+    color: #4c4c4c;
     align-self: flex-end;
+    padding: 32px;
+    font-size: 16px;
 }
 
 .header {
-    background-color: #EBEDEF;
+    margin: 0;
+    background-color: #4c4c4c;
+    color: #dedede;
     width: 100%;
     align-self: flex-start;
+    padding-left: 32px;
 }
 
 .tile {
-    background-color: #EBEDEF;
+    background-color: #4c4c4c;
+    color: #dedede;
     margin: 16px;
     height: 128px;
     width: 128px;
+    
+    padding: 16px;
 }
 
 .content {
@@ -39,11 +46,11 @@ footer {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;   
 
     font-family: 'Roboto', sans-serif;
     color: #273746;
-    background-color: #5D6D7E;
+    background-color: #cccccc;
 }
 
 .row {
@@ -98,7 +105,20 @@ footer {
     width: 100%;
 }
 
-.shadow {
-    /* offset-x | offset-y | blur-radius | color */
-    box-shadow: 10px 5px 5px black;
+.shadow-under {
+    -webkit-box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.3);
+}
+
+.shadow-card {
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.3);
+}
+
+.shadow-inset {
+    -webkit-box-shadow: inset 0px 110px 16px -100px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 110px 16px -100px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 110px 16px -100px rgba(0,0,0,0.3);
 }
