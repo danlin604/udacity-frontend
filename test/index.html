@@ -14,34 +14,37 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
-<body class="content">
+<body class="container">
 
     <header class="header shadow-card">  
-        <h1>danlin604</h1>        
+        <h1><a href="#">danlin604</a></h1>        
     </header>
 
-    <h2>projects</h2>
-   
-    <article 
-        class="tile link shadow-card"
-        onclick="window.location='#';">
-        <header>fiddler</header>
-        <p>js playpen</p>
-    </article>
+    <main role="main" class="shadow-inset">
+        <section class="tile-container">
+            <h2 class="tile">projects</h2>
+        
+            <article 
+                class="tile tile-dark link shadow-card"
+                onclick="window.location='#';">
+                <header>fiddler</header>
+                <p>js playpen</p>
+            </article>
 
-    <article 
-        class="tile link shadow-card"
-        onclick="window.location='#';">
-        <header>pale blue dot</header>
-        <p>carl sagan tribute</p>
-    </article>
+            <article 
+                class="tile tile-dark link shadow-card"
+                onclick="window.location='#';">
+                <header>pale blue dot</header>
+                <p>carl sagan tribute</p>
+            </article>
 
-    <article class="tile shadow-card"></article>
-    <article class="tile shadow-card"></article>
-
+            <article class="tile tile-dark shadow-card"></article>
+            <article class="tile tile-dark shadow-card"></article>
+        </section>
+    </main>
 
     <footer class="row shadow-inset">
-        github
+        <a href="#">github</a>
     </footer>
 
 </body>
