@@ -1,6 +1,10 @@
+/* Wireframe */
+/*
 * {
     border: 1px solid red !important;
 }
+*/
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -47,10 +51,6 @@ main {
     height: 128px;
     width: 128px;    
     padding: 16px;
-}
-
-.tile-dark {
-    background-color: #4c4c4c;
     color: #dedede;
 }
 
@@ -148,4 +148,17 @@ a:visited {
     text-decoration: inherit;
     color: inherit;
     cursor: auto;
+}
+
+/* material.io colors */
+.light-green {
+    background-color: #8BC34A;
+}
+
+.blue {
+    background-color: #2196F3;
+}
+
+.dark-grey {
+    background-color: #4c4c4c;
 }
